@@ -41,7 +41,7 @@ function handleText(textNode)
 	v = v.replace(/\brebuild\b/g, "avenge");
 	v = v.replace(/\bspace\b/g, "spaaace");
 	v = v.replace(/\bGoogle Glass\b/g, "Virtual Boy");
-	v = v.replace(/\bsmartphone\b/g, "Pokedex");
+	v = v.replace(/\bsmartphone\b/g, "Pokédex");
 	v = v.replace(/\belectric\b/g, "atomic");
 	v = v.replace(/\bElectric\b/g, "Atomic");
 	v = v.replace(/\bSenator\b/g, "Elf-Lord");
@@ -58,6 +58,7 @@ function handleText(textNode)
 	// a few more for good measure
 	v = v.replace(/\bsurveillance\b/g, "break dancing");
 	v = v.replace(/\bthe White House\b/g, "White Castle");
+	v = v.replace(/\b64-bit\b/g, "steam powered");
 	
 	textNode.nodeValue = v;
 }
