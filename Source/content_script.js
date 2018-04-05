@@ -61,9 +61,15 @@ function handleText(textNode)
 	v = v.replace(/\b64-bit\b/g, "steam powered");
 	v = v.replace(/\bDonald Trump\b/g, "Donald Duck");
 	v = v.replace(/\bTrump\b/g, "Drumpf");
-	v = v.replace(/\Facebook\b/g, "Yahoo\'s Geocities");
+	v = v.replace(/\bFacebook\b/g, "Yahoo\'s Geocities");
 	v = v.replace(/\bRussia\b/g, "Soviet Russia");
+	v = v.replace(/\bRussian\b/g, "Soviet");
 	v = v.replace(/\bRobert Mueller\b/g, "Ferris Bueller");
+	v = v.replace(/\bMueller\b/g, "Bueller");
+	v = v.replace(/\bManafort\b/g, "Pillowfort");
+	v = v.replace(/\bfake news\b/g, "FOX News");
+	v = v.replace(/\bFOX News\b/g, "fake news");
+	v = v.replace(/\bJustice Department\b/g, "Justice League of America");
 	
 	textNode.nodeValue = v;
 }
