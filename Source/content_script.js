@@ -59,6 +59,11 @@ function handleText(textNode)
 	v = v.replace(/\bsurveillance\b/g, "break dancing");
 	v = v.replace(/\bthe White House\b/g, "White Castle");
 	v = v.replace(/\b64-bit\b/g, "steam powered");
+	v = v.replace(/\bDonald Trump\b/g, "Donald Duck");
+	v = v.replace(/\bTrump\b/g, "Drumpf");
+	v = v.replace(/\Facebook\b/g, "Yahoo\'s Geocities");
+	v = v.replace(/\bRussia\b/g, "Soviet Russia");
+	v = v.replace(/\bRobert Mueller\b/g, "Ferris Bueller");
 	
 	textNode.nodeValue = v;
 }
